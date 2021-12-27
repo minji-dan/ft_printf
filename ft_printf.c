@@ -59,7 +59,7 @@ int	ft_parse_type(const char c, va_list ap)
 	else if (c == 'd' || c == 'i')
 		cnt += ft_print_int(ap, c);
 	else if (c == 'u')
-		cnt += ft_print_unsigned_int(ap, c);
+		cnt += ft_print_uint(ap, c);
 	else if (c == 'x' || c == 'X')
 		cnt += ft_print_hexa(ap, c);
 	else if (c == '%')

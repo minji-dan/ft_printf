@@ -40,7 +40,7 @@ int	ft_print_int(va_list ap, const char c)
 	return (cnt);
 }
 
-int	ft_print_unsigned_int(va_list ap, const char c)
+int	ft_print_uint(va_list ap, const char c)
 {
 	int			cnt;
 	long long	num;

@@ -28,7 +28,7 @@ int		ft_itoa_pf(const char c, char *num_str,
 int		ft_print_num(long long num, const char c, int base);
 int		ft_print_mem(va_list ap, const char c);
 int		ft_print_int(va_list ap, const char c);
-int		ft_print_unsigned_int(va_list ap, const char c);
+int		ft_print_uint(va_list ap, const char c);
 int		ft_print_hexa(va_list ap, const char c);
 
 #endif
